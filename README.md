@@ -1,7 +1,7 @@
 ## Introduction
 App created using Next.js .The app utilizes Mongoose and MongoDB for the backend, while the frontend is served as React JSX. Data is fetched through API pages connecting to MongoDB. Follow the steps below to set up and run the app. In app you can open each blog, read the content, and leave comments. Clicking on a tag redirects you to a separate page where you can explore all blogs with the same tag. Additionally, there is an admin panel where you can edit and delete blogs, as well as delete comments. 
 
-## 🏁 Setup
+## Setup
 
 1. Clone the repository.
 2. Create a new local .env.local file.
