@@ -1,0 +1,43 @@
+.container{
+  padding:15px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+
+}
+
+.blogListWrapper{
+  display: grid;
+  grid-template-columns:repeat( auto-fill, minmax(300px, 1fr) );;
+  flex-direction: column;
+  gap:20px;
+}
+
+.hrText {
+  line-height: 1em;
+  position: relative;
+  border: 0;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}  
+
+.hrText:before {
+    content: '';
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  .hrText:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding:1.5 em 1.5em;
+    line-height: 1.5em;
+    background: #f6f7f5 ;
+  }

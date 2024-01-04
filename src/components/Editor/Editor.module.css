@@ -1,0 +1,14 @@
+.editor{
+  background-color: #fffdfd;
+  border-radius: 15px;
+}
+
+.toolbar{
+  border-radius: 15px;
+  padding:10px;
+}
+
+.editor {
+  background-color: #fffdfd;
+  padding:15px;
+}

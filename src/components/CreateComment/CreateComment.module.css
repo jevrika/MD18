@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap:5px;
+}
+
+.input{
+  padding: 15px;
+  border:1px solid #BCCBC9;
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap:15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap:5px;
+  }
+}

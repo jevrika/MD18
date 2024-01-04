@@ -1,0 +1,207 @@
+.cardWrapper {
+  margin: 100px;
+  border-radius: 25px;
+  border-radius: 5px;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.blogTag {
+  border: 1px solid #d9e2e1;
+  background-color: #d9e2e1;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.blogTag:hover {
+  opacity: 0.7;
+}
+
+.blogImage {
+  border-radius: 10px;
+  height: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.imageWrapper {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.blogCreatedAt {
+  font-size: 10px;
+}
+
+.blogTitle {
+  font-size: 1.5rem;
+}
+
+.commentContent {
+  padding-left: 10px;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.link{
+  text-decoration: none;
+  color:black;
+  font-size: 1.3rem
+}
+
+.date {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .cardWrapper {
+    padding: 25px;
+    border-radius: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .commentsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .commentWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 5px;
+  }
+  .buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 770px) {
+  .cardWrapper {
+    padding: 100px;
+    border-radius: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .commentsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .commentWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1280px) {
+  .cardWrapper {
+    padding: 100px;
+    border-radius: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .commentsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .commentWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cecdcd;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 5px;
+  }
+}
+
+  @media (min-width: 1281px) {
+    .cardWrapper {
+      padding: 100px;
+      border-radius: 25px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 auto;
+    }
+  
+    .commentsWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border: 1px solid #cecdcd;
+      border-radius: 5px;
+      padding: 15px;
+    }
+  
+    .commentWrapper {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #cecdcd;
+      border-radius: 5px;
+      padding: 20px;
+      gap: 5px;
+    }
+}

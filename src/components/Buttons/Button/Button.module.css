@@ -1,0 +1,81 @@
+.update {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ceebfa;
+  background-color: #ceebfa;
+  width: 100%;
+}
+
+.update:hover {
+  opacity: 0.7;
+}
+
+.goBack {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #faeece;
+  background-color: #faeece;
+}
+
+.goBack:hover {
+  opacity: 0.7;
+}
+
+.delete {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fcc9c9;
+  border: 1px solid #fcc9c9;
+  width: 100%;
+  cursor: pointer;
+}
+
+.delete:hover {
+  opacity: 0.7;
+}
+
+.addComment {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bccbc9;
+  background-color: #bccbc9;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.addComment:hover {
+  opacity: 0.7;
+}
+
+.signOut {
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #c0dfd9;
+  border: 1px solid #c0dfd9;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.signOut:hover {
+  opacity: 0.7;
+}
+
+.edit {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d2edfd;
+  border: 1px solid #d2edfd;
+  width: 100%;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: #bae2f9;
+  border: 1px solid #bae2f9;
+}
