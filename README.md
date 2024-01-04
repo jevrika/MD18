@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🧐 About
+This is a Next.js project featuring a list of blogs. You can open each blog, read the content, and leave comments. Clicking on a tag redirects you to a separate page where you can explore all blogs with the same tag. Additionally, there is an admin panel where you can edit and delete blogs, as well as delete comments.
 
-## Getting Started
+🏁 Getting Started
+run commands : 
+ 1. npx create-next-app@latest,
+ 2. npm install,
+ 3. npm run dev
 
-First, run the development server:
+ Open http://localhost:3000 with your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install next.js with command - npx create-next-app@latest
+Install 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Give examples
+Installing
+A step by step series of examples that tell you how to get a development env running.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Say what the step will be
 
-## Learn More
+Give the example
+And repeat
 
-To learn more about Next.js, take a look at the following resources:
+until finished
+End with an example of getting some data out of the system or using it for a little demo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🚀 Deployment
+Add additional notes about how to deploy this on a live system.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+⛏️ Built Using
+Next.js,
+MongoDB,
+Mangoose,
+date-fns,
+NextAuth,
+bcrypt,
