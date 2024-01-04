@@ -1,4 +1,4 @@
-## 🧐 Introduction
+## Introduction
 App created using Next.js .The app utilizes Mongoose and MongoDB for the backend, while the frontend is served as React JSX. Data is fetched through API pages connecting to MongoDB. Follow the steps below to set up and run the app. In app you can open each blog, read the content, and leave comments. Clicking on a tag redirects you to a separate page where you can explore all blogs with the same tag. Additionally, there is an admin panel where you can edit and delete blogs, as well as delete comments. 
 
 ## 🏁 Setup
@@ -10,7 +10,7 @@ App created using Next.js .The app utilizes Mongoose and MongoDB for the backend
 5. Install dependencies using npm i.
 6. Start the server locally with npm run dev.
 
-## 🗐 Pages and Routes
+## Pages and Routes
 
 - /: Displays the four latest blogs with images, titles, truncated text, tags, and timestamps.
 - /blogs: Similar to the root page but lists all available blogs.
@@ -23,7 +23,7 @@ Admin-only routes:
 - /admin/create: Form for admin users to add a new blog, providing the blog image link, title, text, and selecting a tag.
 - /admin/edit/[blogId]: Form for admin users to edit and update an existing blog.
 
-## 📍 API Endpoints
+## API Endpoints
 
 ### /api/auth
 
@@ -53,7 +53,7 @@ Admin-only routes:
 - GET: Retrieves all comments sorted by createdAt in descending order, with a matching blog ID.
 - DELETE: Deletes comments by the provided comment ID.
 
-## ⛏️ Built Using
+## Built Using
 
 - Next.js [Next.js Documentation](https://nextjs.org/docs).
 - NextAuth.js [NextAuth.js Documentation](https://next-auth.js.org/getting-started/introduction).
