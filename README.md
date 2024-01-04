@@ -10,7 +10,7 @@ App created using Next.js .The app utilizes Mongoose and MongoDB for the backend
 5. Install dependencies using npm i.
 6. Start the server locally with npm run dev.
 
-## Pages and Routes
+## 🗐 Pages and Routes
 
 - /: Displays the four latest blogs with images, titles, truncated text, tags, and timestamps.
 - /blogs: Similar to the root page but lists all available blogs.
@@ -23,7 +23,7 @@ Admin-only routes:
 - /admin/create: Form for admin users to add a new blog, providing the blog image link, title, text, and selecting a tag.
 - /admin/edit/[blogId]: Form for admin users to edit and update an existing blog.
 
-## API Endpoints
+## 📍 API Endpoints
 
 ### /api/auth
 
