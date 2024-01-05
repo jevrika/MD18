@@ -12,7 +12,6 @@ export const generateMetadata = async ({ params }: { params: { id: string } }) =
     title: `Blog List | ${blog.title}`
   }
 
-
 }
 
 const BlogDetailsPage = async ({ params }: { params: { id: string } }) => {

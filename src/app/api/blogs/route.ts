@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import Blog from '../../../lib/(models)/Blog';
+import Blog, { IBlog } from '../../../lib/(models)/Blog';
 import { connectToDb } from '@/src/lib/connectToDb';
 
 export async function GET() {

@@ -25,7 +25,6 @@ const EditForm = ({ params }: { params: { id: string } }) => {
 
     } catch (error) {
 
-      console.log('Failed to get blog', error)
       throw new Error(`Failed to get blog, ${error}`)
 
     }

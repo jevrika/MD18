@@ -40,10 +40,8 @@ const BlogList = async ({ blogsToShow }: BlogListProps) => {
   const isAdmin = session?.user.isAdmin || false
 
   const blogs = await getBlogs();
-  // blogs - array with blogs objects
 
   const blogShow = blogsToShow === 0 ? blogs : blogs.slice(0, blogsToShow)
-  // in params get number, if it is 0, then shows all blogs, otherwise gets array from 0, to number to show
 
   return (
     <>

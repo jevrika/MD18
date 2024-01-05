@@ -7,6 +7,8 @@ import EditButton from "@/src/components/Buttons/EditButton/EditButton";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/src/app/api/auth/[...nextauth]/route"
 import Link from "next/link";
+import { IComment } from '@/src/lib/(models)/Comment';
+
 
 type Comment = {
   _id: string,
@@ -24,7 +26,6 @@ const getComment = async (id: string) => {
 
   } catch (error) {
 
-    console.log('Failed to get blog comment', error)
     throw new Error(`Failed to get blog comment, ${error}`)
 
   }

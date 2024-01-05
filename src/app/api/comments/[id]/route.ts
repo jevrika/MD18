@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import Comment from '../../../../lib/(models)/Comment';
+import Comment, { IComment } from '../../../../lib/(models)/Comment';
 import { connectToDb } from '@/src/lib/connectToDb';
 
 export async function GET(_: any, { params }: { params: { id: string } }) {

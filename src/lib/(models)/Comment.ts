@@ -24,5 +24,14 @@ const commnetSchema = new Schema(
   }
 );
 
-const Comment = mongoose.models.Comment || mongoose.model('Comment', commnetSchema);
+export interface IComment extends Document {
+  _id?: string;
+  blogId: string;
+  author: string;
+  comment: string;
+  createdAt?: string ;
+}
+
+
+const Comment = mongoose.models.Comment<IComment> || mongoose.model('Comment', commnetSchema);
 export default Comment;

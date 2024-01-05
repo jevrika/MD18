@@ -24,5 +24,14 @@ const blogSchema = new Schema(
   }
 );
 
-const Blog = mongoose.models.Blog || mongoose.model('Blog', blogSchema);
+export interface IBlog extends Document {
+  _id?: string;
+  image: string;
+  title: string;
+  text: string;
+  tag:string;
+  createdAt?: string;
+}
+
+const Blog = mongoose.models.Blog<IBlog>|| mongoose.model('Blog', blogSchema);
 export default Blog;
